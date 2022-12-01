@@ -17,11 +17,8 @@ const employeeSchema = new mongoose.Schema({
     password:{
         type: String,
         required:true
-    },
-    confirmpassword:{
-        type: String,
-        required:true
     }
+    
 })
 
 const Register = new mongoose.model('Regiter',employeeSchema)

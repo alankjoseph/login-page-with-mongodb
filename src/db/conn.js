@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 mongoose.connect("mongodb://localhost:27017/registration", {
     useNewUrlParser:true,
     useUnifiedTopology:true,
-    // useCreateIndex:true
+    // useCreateIndex:false
 }).then(() =>{
     console.log(`connection successful`)
 }).catch((e)=>{
